@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import ModalDevolver from "../Modal/Livro/ModalDevolver.js";
+import ModalRenovar from "../Modal/Livro/ModalRenovar.js";
 import "../../styles/Cards.css";
 import "../../styles/Botoes.css";
 
@@ -25,6 +26,9 @@ function CardBook(props) {
         <div className="btn-card-container">
           <div className="btn-excluir-container">
             <ModalDevolver lending_id={props.lending_id} />
+          </div>
+          <div className="btn-renovar-container">
+            <ModalRenovar id={props.lending_id} />
           </div>
         </div>
       </div>

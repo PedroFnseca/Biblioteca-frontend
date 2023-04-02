@@ -139,10 +139,27 @@ select:hover {
   border-radius: .2rem;
   padding: .3rem 1.2rem;
   transition: all .1s linear;
+  margin-right: 1rem;
 }
 
 .btn-excluir-card:hover {
   background-color: var(--vermelho) !important;
+  color: var(--cinza) !important;
+  transition: all .1s linear;
+}
+
+.btn-renovar-card {
+  background-color: var(--cinza) !important;
+  color: var(--azul) !important;
+  border: none;
+  border-radius: .2rem;
+  padding: .3rem 1.2rem;
+  transition: all .1s linear;
+  margin-left: 1rem;
+}
+
+.btn-renovar-card:hover {
+  background-color: var(--azul) !important;
   color: var(--cinza) !important;
   transition: all .1s linear;
 }
@@ -219,6 +236,7 @@ select:hover {
 }
 
 .fa-pen,
+.fa-undo,
 .fa-trash {
     margin-right: .5rem;
 }

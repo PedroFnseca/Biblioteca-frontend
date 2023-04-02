@@ -65,7 +65,7 @@
   transition: all .1s linear;
 }
 
-.btn-editar-modal {
+.btn-editar-modal, .btn-renovar-modal {
   background-color: var(--azul) !important;
   color: var(--cinza) !important;
   border: none;
@@ -75,7 +75,7 @@
   transition: all .1s linear;
 }
 
-.btn-editar-modal:hover {
+.btn-editar-modal:hover, .btn-renovar-modal:hover {
   background-color: var(--cinza) !important;
   color: var(--azul) !important;
   transition: all .1s linear;
